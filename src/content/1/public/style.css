@@ -262,6 +262,17 @@ iframe {
     aspect-ratio: 1.618;
 }
 
+#catalogue-landing ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--lg)
+}
+
+#catalogue-landing ul li div {
+    aspect-ratio: 1.618;
+    overflow: hidden;
+}
+
 #cta {
     aspect-ratio: 1;
     width: 50px;
