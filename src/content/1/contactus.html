@@ -3,24 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>About</title>
     <link rel="stylesheet" href="./public/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
 </head>
 <body>
     <section id="navbar">
         <div>
             <div>
-                <h1><span>Hotel</span> Motel</h1>
+                <h1>Hotel Motel</h1>
             </div>
             <div id="nav-menu">
-                <button class="primary-icon-btn" id="close-nav">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
-                    </svg>
-                </button>
+                <button class="primary-icon-btn" id="close-nav"><span>&times;</span></button>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
@@ -37,39 +30,8 @@
             </button>
         </div>
     </section>
-    <section id="landing">
-        <img src="./public/assets/img/landing.jpg" alt="">
-        <div>
-            <h1>Hotel Motel</h1>
-            <a href="#" class="primary-button">Book</a>
-        </div>
-    </section>
-    <section id="about">
-        <div>
-            <h2>About us</h2>
-            <p>
-                Rewind to groovy diners or channel Gatsby glam - Hotel Motel's 6 themed rooms offer an escape to iconic eras. But don't worry, the charm's vintage, the comfort's modern (WiFi, plush beds, you get the picture). Explore local history, chill in our retro game lounge, or simply mingle in our chrome-clad lobby. Themed weekends add another layer of fun, while nearby adventures beckon. Step into a timeless world, create memories that last, and book your unique stay today!
-            </p>
-            <a href="about.html" class="secondary-button">More</a>
-        </div>
-    </section>
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <ul>
-            <li><img src="./public/assets/img/gallery.jpg" alt=""></li>
-            <li><img src="./public/assets/img/gallery2.jpg" alt=""></li>
-            <li><img src="./public/assets/img/gallery3.jpg" alt=""></li>
-            <li><img src="./public/assets/img/gallery4.jpg" alt=""></li>
-            <li><img src="./public/assets/img/gallery5.jpg" alt=""></li>
-            <li><img src="./public/assets/img/gallery6.jpg" alt=""></li>
-            <li><img src="./public/assets/img/gallery7.jpg" alt=""></li>
-        </ul>
-    </section>
-    <section id="contact-us">
-        <div id="map">
-            <h2>Where we are:</h2>
-            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Cycad%20Palm%20Diani%2C%20Diani%20Beach&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near" title="Cycad Palm Diani, Diani Beach" aria-label="Cycad Palm Diani, Diani Beach"></iframe>
-        </div>
+    <section id="about-landing">
+        <h1>Book a stay with us</h1>
         <form id="contact-form">
             <h2>Contact us</h2>
             <ul>
@@ -80,10 +42,18 @@
                     <input type="text" placeholder="Email">
                 </li>
                 <li>
+                    <p>Start Date:</p>
+                    <input type="date" name="" id="">
+                </li>
+                <li>
+                    <p>End date</p>
+                    <input type="date" name="" id="">
+                </li>
+                <li>
                     <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
                 </li>
                 <li>
-                    <input type="submit" class="secondary-button" value="Send Message">
+                    <input type="submit" value="Send Message">
                 </li>
             </ul>
         </form>
